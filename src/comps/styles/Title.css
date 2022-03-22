@@ -1,0 +1,9 @@
+.title{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}

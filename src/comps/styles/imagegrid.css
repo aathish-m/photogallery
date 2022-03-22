@@ -1,0 +1,24 @@
+.img-grid{
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media all and (max-width:800px){
+    .img-grid{
+        gap: 20px;
+        padding: 0px;
+        margin-top: 30px;
+    }
+}
+
+@media all and (max-width:600px){
+    .img-grid{
+        margin-top: 50px;
+    }
+}
+
